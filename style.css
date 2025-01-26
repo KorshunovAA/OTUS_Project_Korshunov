@@ -1,0 +1,65 @@
+
+html {font-family: Roboto, sans-serif;
+    font-size: 16px;
+    line-height: normal;
+}
+
+li {list-style-type: none; /* Убираем маркеры */
+}
+
+  .FontRoboto500 {
+    font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+
+.FontRoboto700 {
+    font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+  .FS_18px {
+    font-size: 18px;
+  }
+  .FS_20px {
+    font-size: 20px;
+  }
+  .FS_24px {
+    font-size: 24px;
+  }
+  .FS_26px {
+    font-size: 26px;
+  } .FS_32px {
+    font-size: 32px;
+  } .FS_34px {
+    font-size: 34px;
+  }
+
+  .FontBitter400 {
+    font-family: "Bitter", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'PlayFairD';
+    src: url('Fonts\Playfair_Display\static\PlayfairDisplay-Regular.ttf') format('truetype');
+}
+
+.FontPFD_600{
+    font-family: 'PlayFairD', sans-serif;
+    font-size: 86px;
+    font-weight: 600;
+}
+.FontPFD_500{
+    font-family: 'PlayFairD', sans-serif;
+    font-size: 86px;
+    font-weight: 500;
+}
