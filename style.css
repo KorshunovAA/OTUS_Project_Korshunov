@@ -24,22 +24,6 @@ li {list-style-type: none; /* Убираем маркеры */
     font-variation-settings:
       "wdth" 100;
   }
-  .FS_18px {
-    font-size: 18px;
-  }
-  .FS_20px {
-    font-size: 20px;
-  }
-  .FS_24px {
-    font-size: 24px;
-  }
-  .FS_26px {
-    font-size: 26px;
-  } .FS_32px {
-    font-size: 32px;
-  } .FS_34px {
-    font-size: 34px;
-  }
 
   .FontBitter400 {
     font-family: "Bitter", serif;
@@ -62,4 +46,21 @@ li {list-style-type: none; /* Убираем маркеры */
     font-family: 'PlayFairD', sans-serif;
     font-size: 86px;
     font-weight: 500;
+}
+
+.FS_18px {
+  font-size: 18px;
+}
+.FS_20px {
+  font-size: 20px;
+}
+.FS_24px {
+  font-size: 24px;
+}
+.FS_26px {
+  font-size: 26px;
+} .FS_32px {
+  font-size: 32px;
+} .FS_34px {
+  font-size: 34px;
 }
