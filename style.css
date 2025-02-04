@@ -7,7 +7,7 @@ html {font-family: Roboto, sans-serif;
 li {list-style-type: none; /* Убираем маркеры */
 }
 
-  .FontRoboto500 {
+  .FontRoboto_500 {
     font-family: "Roboto", serif;
     font-optical-sizing: auto;
     font-weight: 500;
@@ -16,7 +16,7 @@ li {list-style-type: none; /* Убираем маркеры */
       "wdth" 100;
   }
 
-.FontRoboto700 {
+.FontRoboto_700 {
     font-family: "Roboto", serif;
     font-optical-sizing: auto;
     font-weight: 700;
@@ -25,7 +25,7 @@ li {list-style-type: none; /* Убираем маркеры */
       "wdth" 100;
   }
 
-  .FontBitter400 {
+  .FontBitter_400 {
     font-family: "Bitter", serif;
     font-optical-sizing: auto;
     font-weight: 400;
@@ -59,8 +59,10 @@ li {list-style-type: none; /* Убираем маркеры */
 }
 .FS_26px {
   font-size: 26px;
-} .FS_32px {
+} 
+.FS_32px {
   font-size: 32px;
-} .FS_34px {
+} 
+.FS_34px {
   font-size: 34px;
 }
