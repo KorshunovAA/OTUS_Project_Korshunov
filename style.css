@@ -66,3 +66,40 @@ li {list-style-type: none; /* Убираем маркеры */
 .FS_34px {
   font-size: 34px;
 }
+.Menu {
+  display: flex;
+  width: 98vw;
+  height: 88px;
+  /*padding: 10px;
+  border: 2px solid red;*/
+  justify-content: space-between;
+  align-items: center;
+  /*padding-left: 20px;*/
+  
+}
+.LinkInMenu {
+  display: flex;
+  gap: 100px;
+}
+.Link{text-decoration: none;
+color: black;}
+
+.Block_1{
+  display: flex;
+  min-height: 630px;
+  width: 100vw;
+  background-image: url('C:\Users\Adm\Desktop\Обучение\Project\Img\inside-weather-Uxqlfigh6oE-unsplash 1@2x.jpg');
+  background-size: cover;
+  background: rgb(124, 101, 101);
+  align-items: center;
+  justify-content: center;
+}
+.Block_2{
+  display: flex;
+  flex-direction: column;
+  width: 47.9%;
+  min-height: 360px;
+  background: white;
+  align-items: center;
+  justify-content: center;
+}
