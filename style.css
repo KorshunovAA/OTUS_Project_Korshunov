@@ -156,7 +156,7 @@ color: black;}
 
 
 .p_Disigners{
-  padding-top: 125px;
+  padding-top: 120px;
   padding-left: 370px;
 }
 .p_JessWonder{
@@ -175,7 +175,6 @@ color: black;}
   padding-top: 10px;
   overflow-x: scroll;
 }
-
 
 .item-1 {
   /*background-color:aqua;*/
@@ -198,6 +197,7 @@ object-fit: cover;
 padding-top: 100px;
 padding-left: 20px;
 margin: 0;
+align-items: center;
 }
 .item-4 {
   grid-column: 4/ span 1;
@@ -206,3 +206,62 @@ margin: 0;
   padding-left: 20px;
   margin: 0;
   }
+
+  .Parent_Testimonials{
+    display: grid;
+    width: 1165px;
+    height: 760px;
+    margin: 0 auto;
+    grid-template-columns: 118px 451px 145px 451px;
+    padding-top: 90px;
+    /*justify-content: center;
+    align-items: center;*/
+  }
+
+  .t_ul{
+    transform: rotate(-90deg);
+    margin: 0; 
+    padding: 0px;
+  }
+
+  .t_item-1 {
+    grid-column: 1/ span 1;
+    padding: 0px;
+    margin: 0;  
+    background-color: rgb(31, 212, 152);
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    align-items:center;
+    justify-content: center;
+    
+  }
+  
+
+  .t_item-2 {
+    grid-column: 2/ span 1;
+    padding-top: 0px;
+    padding-left: 0px;
+    margin: 0;
+    object-fit: cover;
+    background-color:coral;
+  
+    }
+  .t_item-3 {
+    grid-column: 3/ span 1;
+    padding-top: 0px;
+    padding-left: 0px;
+    margin: 0;
+    padding-right: 62px;
+    padding-top: 80px;
+    }
+  .t_item-4 {
+    grid-column: 4/ span 1;
+    padding-top: 0px;
+    padding-top: 8px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+
