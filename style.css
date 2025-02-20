@@ -1,4 +1,11 @@
 
+@font-face {
+  font-family: 'PlayFairD';
+  /*src: url('Fonts\Playfair_Display\static\PlayfairDisplay-Regular.ttf') format('truetype');*/
+  src: url("Fonts\Playfair_Display\static\PlayfairDisplay-Regular.ttf") format('truetype');
+  font-style: normal;
+}
+
 html {font-family: Roboto, sans-serif;
     font-size: 16px;
     line-height: normal;
@@ -37,18 +44,13 @@ li {list-style-type: none; /* Убираем маркеры */
     font-style: normal;
   }
 
-  @font-face {
-    font-family: 'PlayFairD';
-    src: url('Fonts\Playfair_Display\static\PlayfairDisplay-Regular.ttf') format('truetype');
-}
-
 .FontPFD_600{
-    font-family: 'PlayFairD', sans-serif;
+    font-family: 'PlayFairD', serif;
     font-size: 86px;
     font-weight: 600;
 }
 .FontPFD_500{
-    font-family: 'PlayFairD', sans-serif;
+    font-family: 'PlayFairD', serif;
     font-size: 86px;
     font-weight: 500;
 }
@@ -73,19 +75,23 @@ li {list-style-type: none; /* Убираем маркеры */
 }
 .Menu {
   display: flex;
-  width: 98vw;
-  height: 88px;
-  /*padding: 10px;
-  border: 2px solid red;*/
+  max-width: 1400px;
+  height: 135px;
+  margin: 0 auto;
+  /*border: 2px solid red;*/
   justify-content: space-between;
-  align-items: center;
-  /*padding-left: 20px;*/
-  
-}
+  align-items: center;}
+
 .LinkInMenu {
   display: flex;
-  gap: 100px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  gap: 55px;
+  /*background-color:chocolate;*/
 }
+
+
 .Link{text-decoration: none;
 color: black;}
 
@@ -94,9 +100,6 @@ color: black;}
   flex-direction: column;
   min-height: 630px;
   width: 100%;
-  /*background-image: url("Img\inside-weather-Uxqlfigh6oE-unsplash 1@2x.jpg");
-  background-size: cover;
-  background: rgb(124, 101, 101);*/
   align-items: center;
   justify-content: center;
   position: relative;
@@ -104,10 +107,51 @@ color: black;}
 .Block_2{
   display: flex;
   flex-direction: column;
-  width: 47.9%;
+  width: 36%;
   min-height: 360px;
   background: white;
   align-items: center;
   justify-content: center;
   position: absolute;
+  margin: 0 auto;
 }
+
+.biograghy {
+  display: flex;
+  /*border: 1px solid green;*/
+  max-width: 1165px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  /*background-color: aquamarine;*/
+  padding-top: 140px;
+}
+.img_biograghy {
+  width: 49%;
+  object-fit: cover;
+}
+
+.content-biography {
+  display: flex;
+  
+  width: 39%;
+  /*justify-content: center;*/
+  flex-direction: column;
+  padding-left: 30px;
+  padding-top: 100px;
+  padding-right: 0px;
+  margin-right: 0;
+  
+}
+
+
+
+.section-biography-text {
+  margin: 0;
+  transform: rotate(-90deg) translateX(-25%);
+  padding-bottom: 30px;
+}
+
+.text1{background-color: rgb(31, 212, 152);}
+.text2{background-color:blueviolet;}
+.text3{background-color:chartreuse;}
+.text4{background-color:cornflowerblue}
