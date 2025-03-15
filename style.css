@@ -270,4 +270,77 @@ align-items: center;
     flex-direction: column;
     text-align: center;
   }
+.p_sp{
+  margin: 0;
+  padding-top: 150px;
+  padding-left: 490px;
+}
+.ul_sp{
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  padding-left: 130px;
+  padding-top: 10px;
+}
 
+  .StrongPoints {
+    display: flex;
+   /*border: 1px solid green;*/
+    max-width: 1420px;
+    height: 570px;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 30px;
+    /*box-sizing: border-box;
+    align-items: center;
+    justify-content: center;*/
+    gap: 20px;
+    overflow-x: scroll;
+  }
+
+  .Strengths{
+    display: flex;
+    flex-direction: column;
+    width: 451px;
+    margin: 0;
+    padding: 0px;
+    text-align: center;
+  }
+
+  @supports (display: grid) {
+
+    .StrongPoints {
+      max-width: 1420px;
+      display: grid;
+      width: 100%;
+      height: 570px;
+      margin: 0 auto;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      overflow-x: scroll;
+    }
+    .sp_item-1 {
+      grid-column: 1/ span 1;
+      padding: 0px;
+      margin: 0;
+      object-fit: cover;
+      }
+    .sp_item-2 {
+      grid-column: 2/ span 1;
+      padding: 0px;
+      margin: 0;
+      object-fit: cover;
+      }
+    .sp_item-3 {
+      grid-column: 3/ span 1;
+      padding: 0px;
+      margin: 0;
+      }
+    .sp_item-4 {
+      grid-column: 4/ span 1;
+      padding: 0px;
+      margin: 0;
+      max-width: 335px;
+      max-height: 544px;
+      object-fit: cover;
+      }
+  }
