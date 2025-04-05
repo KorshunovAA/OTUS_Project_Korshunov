@@ -241,47 +241,28 @@ a {
   padding-bottom: 30px;
 }
 
-.text1 {
-  background-color: rgb(31, 212, 152);
-}
-
-.text2 {
-  background-color: blueviolet;
-}
-
-.text3 {
-  background-color: chartreuse;
-}
-
-.text4 {
-  background-color: cornflowerblue;
-}
-
-.p_Disigners {
+.designers__title {
   padding-top: 120px;
   padding-left: 20px;
+  font-family: "Roboto", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  font-size: 24px;
 }
 
-.p_JessWonder {
-  padding-left: 240px;
-}
-
-.Parent_Designers {
+.designers {
   display: grid;
   width: 100%;
   height: 677px;
   margin: 0 auto;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  /*border: 2px solid red;*/
-  /*grid-template-columns: 572px 337px 331px 100px;*/
-  /*grid-template-rows: 58px 1fr 51px;*/
   padding-top: 10px;
   overflow-x: scroll;
 }
 
-.item-1 {
-  /*background-color:aqua;*/
-  /*grid-row: 1/ span 3;*/
+.designers__pictext-1 {
   grid-column: 1/span 1;
   -o-object-fit: cover;
      object-fit: cover;
@@ -289,7 +270,7 @@ a {
   margin: 0;
 }
 
-.item-2 {
+.designers__pictext-2 {
   grid-column: 2/span 1;
   -o-object-fit: cover;
      object-fit: cover;
@@ -298,7 +279,7 @@ a {
   margin: 0;
 }
 
-.item-3 {
+.designers__pictext-3 {
   grid-column: 3/span 1;
   -o-object-fit: cover;
      object-fit: cover;
@@ -308,13 +289,25 @@ a {
   align-items: center;
 }
 
-.item-4 {
+.designers__pictext-4 {
   grid-column: 4/span 1;
   -o-object-fit: cover;
      object-fit: cover;
   padding-top: 100px;
   padding-left: 20px;
   margin: 0;
+}
+
+.designers__pictext_font {
+  font-family: "Roboto", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+.designers__pictext-1_padding {
+  padding-left: 240px;
 }
 
 .Parent_Testimonials {
@@ -582,12 +575,10 @@ a {
     bottom: 500px;
     left: 550px;
   }
-  .Parent_Designers {
+  .designers {
     height: auto;
   }
-  .item-1 {
-    /*background-color:aqua;*/
-    /*grid-row: 1/ span 3;*/
+  .designers__pictext-1 {
     grid-column: 1/span 1;
     -o-object-fit: cover;
        object-fit: cover;
@@ -595,20 +586,20 @@ a {
     margin: 0;
     padding-top: 0px;
   }
-  .item-2 {
+  .designers__pictext-2 {
     padding-top: 0px;
   }
-  .item-3 {
+  .designers__pictext-3 {
     padding-top: 0px;
   }
-  .item-4 {
+  .designers__pictext-4 {
     padding-top: 0px;
   }
-  .p_Disigners {
+  .designers__title {
     padding-top: 40px;
     padding-left: 20px;
   }
-  .p_JessWonder {
+  .designers__pictext-1_padding {
     padding-left: 0px;
   }
   .t_item-2 {
@@ -875,12 +866,10 @@ a {
     font-variation-settings: "wdth" 100;
     font-size: 18px;
   }
-  .Parent_Designers {
+  .designers {
     height: auto;
   }
-  .item-1 {
-    /*background-color:aqua;*/
-    /*grid-row: 1/ span 3;*/
+  .designers__pictext-1 {
     grid-column: 1/span 1;
     -o-object-fit: cover;
        object-fit: cover;
@@ -888,20 +877,21 @@ a {
     margin: 0;
     padding-top: 0px;
   }
-  .item-2 {
+  .designers__pictext-2 {
     padding-top: 0px;
   }
-  .item-3 {
+  .designers__pictext-3 {
     padding-top: 0px;
   }
-  .item-4 {
+  .designers__pictext-4 {
     padding-top: 0px;
   }
-  .p_Disigners {
+  .designers__title {
     padding-top: 20px;
     padding-left: 20px;
+    font-size: 18px;
   }
-  .p_JessWonder {
+  .designers__pictext-1_padding {
     padding-left: 0px;
   }
   .t_item-2 {
