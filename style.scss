@@ -1130,3 +1130,22 @@
   
   
       }
+
+      dialog::backdrop{
+        background-color: rgba(0,0,0,0.6);
+      }
+      .dialog {
+        border: none;
+        padding: 10px;
+      }
+      .dialog__close{
+        display: grid;
+        place-items: end;
+      }
+
+      body:has(dialog[open]) {
+        overflow: hidden;
+      }
+      
+
+      /*<i class="fas fa-bars"></i>*/
