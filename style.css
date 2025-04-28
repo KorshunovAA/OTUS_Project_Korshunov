@@ -67,6 +67,14 @@ a {
   font-variation-settings: "wdth" 100;
 }
 
+.FontRoboto_400 {
+  font-family: "Roboto", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
 .Font_ZagolovokSekcii {
   font-family: "Roboto", serif;
   font-optical-sizing: auto;
@@ -478,6 +486,68 @@ a {
   display: flex;
   height: auto;
   flex-direction: column;
+}
+
+dialog::backdrop {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.dialog {
+  /*display: flex;
+  flex-direction: column;
+  justify-content: center;*/
+  border: none;
+  padding: 10px;
+}
+
+.dialog__close {
+  display: grid;
+  place-items: end;
+}
+
+body:has(dialog[open]) {
+  overflow: hidden;
+}
+
+.form__textarea {
+  width: 100%;
+  height: 107px;
+  resize: none;
+}
+
+.form_label {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.form_button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+}
+
+.form__label_font {
+  font-family: "Roboto", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  font-size: 22px;
+  color: black;
+}
+
+.form__text_font {
+  font-family: "Roboto", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  font-size: 16px;
+  color: black;
 }
 
 @media screen and (min-width: 450px) and (max-width: 768px) {
@@ -1052,22 +1122,4 @@ a {
     flex-direction: column;
   }
 }
-dialog::backdrop {
-  background-color: rgba(0, 0, 0, 0.6);
-}
-
-.dialog {
-  border: none;
-  padding: 10px;
-}
-
-.dialog__close {
-  display: grid;
-  place-items: end;
-}
-
-body:has(dialog[open]) {
-  overflow: hidden;
-}
-
 /*<i class="fas fa-bars"></i>*//*# sourceMappingURL=style.css.map */

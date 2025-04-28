@@ -166,10 +166,29 @@
 
 
 <dialog class="dialog" id="myDialog">
-  <div class="dialog__close" onclick="window.myDialog.close()">&times;</div>
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, veniam!</p>
+  <!-- <div class="dialog__close" onclick="window.myDialog.close()">&times;</div> -->
+  
 
-  <button type="button" onclick="window.myDialog.close()">Close</button>
+  <form action="mailto:kite_alex@mail.ru" enctype="text/plain" method="get">
+    <label class="form_label form__label_font">Get in touch</label>
+    <label class="form__text_font">Do you have any questions? Have something to say?<br/>
+      Don't be shy, write to us:</label>
+
+    <label class="form_label form__label_font"> Name
+      <input type="text" name="FormName" placeholder="3+ Characters" required></input>
+    </label>
+    <label class="form_label form__label_font">E-mail
+      <input type="email" name="FormEMail" placeholder="name@mail.com" required></input></label>
+    <label class="form_label form__label_font">Comment
+      <textarea class="form__textarea" name="FormComment" placeholder="Some text..."></textarea>
+    </label>
+    <div class="form_button">
+      <button type="button" onclick="window.myDialog.close()">Close</button>
+      <button type="Submit">+ Send</button>
+    </div>
+  </form>
+
+  
 </dialog>
 
   </body>
